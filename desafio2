@@ -1,0 +1,15 @@
+let Nome = prompt("Qual o seu nome?");
+let Idade = prompt("Qual a sua idade?");
+let Linguagem = prompt("Qual linguagem de programação você está estudando?");
+
+Option = prompt("Você gosta de estudar " + Linguagem + "?" + " Responda com o número 1 para SIM ou 2 para NÃO.")
+
+console.log("Olá ",Nome, " você tem ",Idade, " anos e já está aprendendo ",Linguagem)
+
+if (Option==1) {
+  console.log("Muito bom! Continue estudando e você terá muito sucesso.")
+}
+
+if (Option==2) {
+  console.log("Ahh que pena... Já tentou aprender outras linguagens?")
+}
